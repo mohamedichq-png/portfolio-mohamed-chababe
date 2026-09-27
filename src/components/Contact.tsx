@@ -17,13 +17,15 @@ export default function Contact() {
   const [copiedKey, setCopiedKey] = useState<string | null>(null);
 
   const projectTypes = [
-    'Site web',
-    'Refonte de site',
-    'Branding',
-    'Logo',
-    'Design graphique',
-    'Social Media',
+    'Création de site web',
+    'Refonte de site web',
+    'Web design (UI/UX)',
+    'Branding & Identité',
+    'Design graphique & Print',
+    'Social Media Design',
     'E-commerce',
+    'Référencement local (SEO)',
+    'IA Créative & Direction Artistique',
     'Autre',
   ];
 

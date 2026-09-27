@@ -73,8 +73,8 @@ export default function Hero() {
           </h1>
 
           {/* Supporting Text */}
-          <p className="mt-8 sm:mt-10 text-lg sm:text-xl md:text-2xl text-[#686761] max-w-2xl font-normal leading-relaxed text-balance">
-            Je conçois des identités visuelles, des sites web et des expériences digitales modernes pour les entreprises et les marques.
+          <p className="mt-8 sm:mt-10 text-lg sm:text-xl md:text-2xl text-[#686761] max-w-3xl font-normal leading-relaxed text-balance">
+            Web design, branding, design graphique et création de sites web modernes pour aider les entreprises à renforcer leur présence digitale.
           </p>
         </div>
 
@@ -92,7 +92,7 @@ export default function Hero() {
             href="#contact"
             className="group inline-flex items-center justify-center gap-3 px-8 py-4 rounded-full text-sm font-semibold uppercase tracking-wider bg-transparent text-[#121210] border border-[#121210]/20 hover:border-[#121210] hover:bg-[#121210]/5 transition-all duration-300"
           >
-            <span>Me contacter</span>
+            <span>Demander un devis</span>
             <ArrowUpRight className="w-4 h-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
           </a>
         </div>

@@ -22,8 +22,8 @@ export default function Services() {
             </h2>
           </div>
 
-          <p className="text-base sm:text-lg text-[#686761] max-w-md font-normal leading-relaxed">
-            Une approche globale alliant sensibilité graphique, rigueur typographique et performance digitale.
+          <p className="text-base sm:text-lg text-[#686761] max-w-lg font-normal leading-relaxed">
+            Des solutions complètes pour accompagner les PME, commerces et marques à Paris et en France dans leur visibilité et leur croissance digitale.
           </p>
         </div>
 
