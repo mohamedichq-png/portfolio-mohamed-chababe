@@ -57,12 +57,30 @@ export default function Footer() {
 
             <div className="space-y-3">
               <span className="text-[11px] font-mono uppercase tracking-wider text-[#8E8D86]">
-                Réseaux
+                Direct &amp; Réseaux
               </span>
               <ul className="space-y-2">
                 <li>
                   <a
-                    href="https://linkedin.com"
+                    href="https://wa.me/33744859977"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-[#FAF9F5]/80 hover:text-[#25D366] transition-colors inline-flex items-center gap-1"
+                  >
+                    WhatsApp (+33 7 44 85 99 77)
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="mailto:mohamadmdce2@gmail.com"
+                    className="text-[#FAF9F5]/80 hover:text-white transition-colors inline-flex items-center gap-1"
+                  >
+                    mohamadmdce2@gmail.com
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/mohamed-chababe-b51291351/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-[#FAF9F5]/80 hover:text-white transition-colors inline-flex items-center gap-1"
@@ -72,12 +90,12 @@ export default function Footer() {
                 </li>
                 <li>
                   <a
-                    href="https://instagram.com"
+                    href="https://www.instagram.com/mdce_chababe/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-[#FAF9F5]/80 hover:text-white transition-colors inline-flex items-center gap-1"
                   >
-                    Instagram
+                    Instagram (@mdce_chababe)
                   </a>
                 </li>
               </ul>

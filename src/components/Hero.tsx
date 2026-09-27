@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
-import { ArrowDownRight, ArrowUpRight, Compass, Sparkles } from 'lucide-react';
+import { ArrowDownRight, ArrowUpRight, Compass, Sparkles, MessageCircle } from 'lucide-react';
 
 export default function Hero() {
   const [parisTime, setParisTime] = useState<string>('');
@@ -89,11 +89,20 @@ export default function Hero() {
           </a>
 
           <a
-            href="#contact"
-            className="group inline-flex items-center justify-center gap-3 px-8 py-4 rounded-full text-sm font-semibold uppercase tracking-wider bg-transparent text-[#121210] border border-[#121210]/20 hover:border-[#121210] hover:bg-[#121210]/5 transition-all duration-300"
+            href="https://wa.me/33744859977"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group inline-flex items-center justify-center gap-2.5 px-8 py-4 rounded-full text-sm font-semibold uppercase tracking-wider bg-[#25D366]/10 text-[#075E54] border border-[#25D366]/30 hover:bg-[#25D366] hover:text-white hover:border-[#25D366] transition-all duration-300 shadow-sm"
           >
-            <span>Demander un devis</span>
-            <ArrowUpRight className="w-4 h-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
+            <MessageCircle className="w-4 h-4 text-[#25D366] group-hover:text-white transition-colors" />
+            <span>Parler sur WhatsApp →</span>
+          </a>
+
+          <a
+            href="#contact"
+            className="inline-flex items-center justify-center text-xs font-medium text-[#686761] hover:text-[#121210] transition-colors underline underline-offset-4 py-2 sm:py-0"
+          >
+            Ou demander un devis en ligne
           </a>
         </div>
       </div>

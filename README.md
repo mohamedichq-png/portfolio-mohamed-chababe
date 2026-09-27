@@ -78,12 +78,11 @@ npm run start
 
 ---
 
-## 🎨 Personnalisation des Coordonnées
-Dans le composant [`src/components/Contact.tsx`](file:///c:/Users/pc/OneDrive/Bureau/portfolio%20mohamed%20chababe/src/components/Contact.tsx), vous pouvez remplacer les placeholders :
-- `[YOUR EMAIL]` : votre adresse email professionnelle
-- `[YOUR WHATSAPP]` : votre numéro WhatsApp
-- `[YOUR LINKEDIN]` : le lien de votre profil LinkedIn
-- `[YOUR INSTAGRAM]` : votre pseudo ou URL Instagram
+## 🎨 Coordonnées Officielles
+- **Email :** [mohamadmdce2@gmail.com](mailto:mohamadmdce2@gmail.com)
+- **WhatsApp :** [+33 7 44 85 99 77](https://wa.me/33744859977)
+- **LinkedIn :** [Mohamed Chababe](https://www.linkedin.com/in/mohamed-chababe-b51291351/)
+- **Instagram :** [@mdce_chababe](https://www.instagram.com/mdce_chababe/)
 
 ---
 
